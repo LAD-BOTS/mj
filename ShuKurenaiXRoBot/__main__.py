@@ -81,19 +81,20 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
-✪ I'm an Beyblade theme management bot [🔥](http://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg) 
 ────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
+*𝙃𝙀𝙇𝙇𝙊 {} !*
+  𝙖𝙢 𝙈𝙅⃠ 𝙖 𝙨𝙞𝙢𝙥𝙡𝙚 𝙗𝙪𝙩 𝙥𝙤𝙬𝙚𝙧𝙛𝙪𝙡𝙡 𝙜𝙧𝙤𝙪𝙥 𝙢𝙖𝙣𝙖𝙜𝙚𝙢𝙚𝙣𝙩 𝙗𝙤𝙩[✅](https://te.legra.ph/file/3917dbed8f81106a98f03.jpg) 
+  𝙖𝙢 𝙖𝙗𝙡𝙚 𝙩𝙤 𝙢𝙖𝙣𝙖𝙜𝙚 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥 𝙖𝙣𝙙 𝙨𝙩𝙧𝙚𝙖𝙢 𝙢𝙚𝙙𝙞𝙖 𝙞𝙣 𝙫𝙘.
 ────────────────────────
-✪ Hit /help to see my available commands.
+
+
+
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➗ Add Shu Kurenai To Your Group ➗", url="t.me/ShuKurenaiXRoBot?startgroup=new"),
+            text="𝙘𝙤𝙣𝙣𝙚𝙘𝙩 𝙢𝙚", url="t.me/peters_queenbot?startgroup=new"),
     ],
     [
         InlineKeyboardButton(
@@ -106,10 +107,10 @@ buttons = [
     [                  
                        InlineKeyboardButton(
                              text="Support🚑",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/teamladz_bothub"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url=f"https://t.me/shukurenai007"),
+                             url=f"https://t.me/team_lad"),
     ],
 
 ]
@@ -119,9 +120,9 @@ HELP_STRINGS = """
 Click on the button bellow to get description about specifics command[.](http://telegra.ph/file/e384ab52db8c0912ca356.jpg)"""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to **@shukurenai007bot**"""
-HELP_IMG = "http://telegra.ph/file/2861eda5afba02bf04254.jpg"
-GROUP_IMG = "http://telegra.ph/file/0adf9e97735ba8a420973.jpg"
+DONATE_STRING = """*⛔*"""
+HELP_IMG = "https://te.legra.ph/file/463716d2db68e7c38d3cd.jpg"
+GROUP_IMG = "https://te.legra.ph/file/463716d2db68e7c38d3cd.jpg"
 
 
 
