@@ -81,11 +81,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────────────────────────
+─────────────────────
 *𝙃𝙀𝙇𝙇𝙊 {} !*
   𝙖𝙢 𝙈𝙅⃠ 𝙖 𝙨𝙞𝙢𝙥𝙡𝙚 𝙗𝙪𝙩 𝙥𝙤𝙬𝙚𝙧𝙛𝙪𝙡𝙡 𝙜𝙧𝙤𝙪𝙥 𝙢𝙖𝙣𝙖𝙜𝙚𝙢𝙚𝙣𝙩 𝙗𝙤𝙩[✅](https://te.legra.ph/file/3917dbed8f81106a98f03.jpg) 
   𝙖𝙢 𝙖𝙗𝙡𝙚 𝙩𝙤 𝙢𝙖𝙣𝙖𝙜𝙚 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥 𝙖𝙣𝙙 𝙨𝙩𝙧𝙚𝙖𝙢 𝙢𝙚𝙙𝙞𝙖 𝙞𝙣 𝙫𝙘.
-────────────────────────
+─────────────────────
 
 
 
@@ -98,18 +98,18 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-              text="Help",
+              text="𝙝𝙚𝙡𝙥",
               callback_data="help_back"),
         InlineKeyboardButton(
-              text="About",
-              callback_data="shukurenai_"),   
+              text="𝙙𝙚𝙫",
+              callback_data="https://t.me/pet3r_park3r"),   
     ],
     [                  
                        InlineKeyboardButton(
-                             text="Support🚑",
+                             text="𝙨𝙪𝙥𝙥𝙤𝙧𝙩",
                              url=f"https://t.me/teamladz_bothub"),
                        InlineKeyboardButton(
-                             text="Updates🛰️",
+                             text="𝙪𝙥𝙙𝙖𝙩𝙚𝙨",
                              url=f"https://t.me/team_lad"),
     ],
 
@@ -117,9 +117,9 @@ buttons = [
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command[.](http://telegra.ph/file/e384ab52db8c0912ca356.jpg)"""
+Click on the button bellow to get description about specifics command[.](https://te.legra.ph/file/463716d2db68e7c38d3cd.jpg)"""
 
-HELP_MSG = "Click the button below to get help manu in your pm."
+HELP_MSG = "𝙘𝙡𝙞𝙘𝙠 𝙩𝙝𝙚 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬 𝙩𝙤 𝙜𝙚𝙩 𝙝𝙚𝙡𝙥 𝙢𝙚𝙣𝙪 𝙞𝙣𝙗𝙤𝙭"
 DONATE_STRING = """*⛔*"""
 HELP_IMG = "https://te.legra.ph/file/463716d2db68e7c38d3cd.jpg"
 GROUP_IMG = "https://te.legra.ph/file/463716d2db68e7c38d3cd.jpg"
@@ -187,7 +187,7 @@ def send_help(chat_id, text, keyboard=None):
 
 def test(update: Update, context: CallbackContext):
     # pprint(eval(str(update)))
-    # update.effective_message.reply_text("Hola tester! _I_ *have* `markdown`", parse_mode=ParseMode.MARKDOWN)
+    # update.effective_message.reply_text("𝙝𝙚𝙮 𝙩𝙚𝙨𝙩𝙚𝙧! _𝙄_ 𝙝𝙖𝙫𝙚 `markdown`", parse_mode=ParseMode.MARKDOWN)
     update.effective_message.reply_text("This person edited a message")
     print(update.effective_message)
 
@@ -207,7 +207,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="Go Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="𝙗𝙖𝙘𝙠", callback_data="help_back")]]
                     ),
                 )
 
@@ -239,15 +239,15 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_photo(
-             GROUP_IMG, caption= "*Hey {},*\n*Shu Kurenai here*\n*Power lavel time* : {} ".format(
+             GROUP_IMG, caption= "*𝙝𝙚𝙮 {},*\n*𝙖𝙢 𝙤𝙣𝙡𝙞𝙣𝙚* \n *𝙪𝙥𝙩𝙞𝙢𝙚* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="✧ Support ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/shukurenai007"),
+                  InlineKeyboardButton(text="𝙨𝙪𝙥𝙥𝙤𝙧𝙩", url=f"https://t.me/teamladz_bothub"),
+                  InlineKeyboardButton(text="𝙪𝙥𝙙𝙖𝙩𝙚", url=f"https://t.me/team_lad")
                   ]
                 ]
             ),
@@ -757,8 +757,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 1606221784:
             update.effective_message.reply_text(
-                "I'm free for everyone 😎 If you wanna make me smile, just join"
-                "[My Channel]({})".format(DONATION_LINK),
+                "⛔".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
     else:
