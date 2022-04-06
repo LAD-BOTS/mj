@@ -483,13 +483,9 @@ def shukurenai_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
+                                  
                  [
-                    InlineKeyboardButton(text="DeepakJack", url="https://github.com/DeepakJack007"),
-                    InlineKeyboardButton(text="Kishore", url="https://github.com/AASFCYBERKING"),
-                    InlineKeyboardButton(text="Nandha", url="https://github.com/Ctzfamily"), 
-                 ],
-                 [
-                    InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
+                    InlineKeyboardButton(text="𝙗𝙖𝙘𝙠", callback_data="shukurenai_"),
                  ]
                 ]
             ),
@@ -515,7 +511,7 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="shukurenai_")
+                    InlineKeyboardButton(text="𝙗𝙖𝙘𝙠", callback_data="shukurenai_")
                  ]
                 ]
             ),
@@ -548,7 +544,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Help",
+                                text="𝙝𝙚𝙡𝙥",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -585,7 +581,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Go Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="𝙗𝙖𝙘𝙠", callback_data="help_back")]]
             ),
         )
 
@@ -657,7 +653,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Go Back",
+                                text="𝙗𝙖𝙘𝙠",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -732,7 +728,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Settings",
+                                text="𝙨𝙚𝙩𝙩𝙞𝙣𝙜𝙨",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -808,10 +804,10 @@ def main():
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="Support🚑",
+                             text="𝙨𝙪𝙥𝙥𝙤𝙧𝙩",
                              url=f"https://t.me/ShuKurenaiSupport"),
                        InlineKeyboardButton(
-                             text="Updates🛰️",
+                             text="𝙪𝙥𝙙𝙖𝙩𝙚𝙨",
                              url="https://t.me/shukurenai007")
                      ] 
                 ]
