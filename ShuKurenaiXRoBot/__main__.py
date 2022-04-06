@@ -337,7 +337,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Go Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="𝙗𝙖𝙘𝙠", callback_data="help_back")]]
                 ),
             )
 
@@ -395,20 +395,9 @@ def shukurenai_about_callback(update, context):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
+                 
                  [
-                    InlineKeyboardButton(text="Admins", callback_data="shukurenai_admin"),
-                    InlineKeyboardButton(text="Notes", callback_data="shukurenai_notes"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Support", callback_data="shukurenai_support"),
-                    InlineKeyboardButton(text="Credits", callback_data="shukurenai_credit"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/shukurenai007/ShuKurenaiXRoBot"),
-                    InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""), 
-                 ],
-                 [
-                    InlineKeyboardButton(text="Go Back", callback_data="shukurenai_back"),
+                    InlineKeyboardButton(text="𝙗𝙖𝙘𝙠", callback_data="shukurenai_back"),
                  ]
                 ]
             ),
@@ -441,7 +430,7 @@ def shukurenai_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Go Back", callback_data="shukurenai_")]]
+                [[InlineKeyboardButton(text="𝙗𝙖𝙘𝙠", callback_data="shukurenai_")]]
             ),
         )
 
@@ -453,7 +442,7 @@ def shukurenai_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Go Back", callback_data="shukurenai_")]]
+                [[InlineKeyboardButton(text="𝙗𝙖𝙘𝙠", callback_data="shukurenai_")]]
             ),
         )
     elif query.data == "shukurenai_support":
@@ -464,11 +453,11 @@ def shukurenai_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/ShuKurenaiSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/shukurenai007"),
+                    InlineKeyboardButton(text="𝙨𝙪𝙥𝙥𝙤𝙧𝙩", url="t.me/ShuKurenaiSupport"),
+                    InlineKeyboardButton(text="𝙪𝙥𝙙𝙖𝙩𝙚𝙨", url="https://t.me/shukurenai007"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
+                    InlineKeyboardButton(text="𝙗𝙖𝙘𝙠", callback_data="shukurenai_"),
                  
                  ]
                 ]
