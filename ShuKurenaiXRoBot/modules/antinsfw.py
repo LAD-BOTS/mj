@@ -7,7 +7,7 @@ from ShuKurenaiXRoBot.utils.errors import capture_err
 from ShuKurenaiXRoBot.utils.permissions import adminsOnly
 from ShuKurenaiXRoBot.ex_plugins.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
 
-__mod_name__ = "Anti-NSFW​"
+__mod_name__ = "𝙖𝙣𝙩𝙞-𝙣𝙨𝙛𝙬​"
 
 
 async def get_file_id_from_message(message):
