@@ -61,4 +61,4 @@ __help__ = """
 ** book  **
  ❍ /book  <book name > : Search any book useing this bot  
 """
-__mod_name__ = "Book"
+__mod_name__ = "𝙗𝙤𝙤𝙠"
