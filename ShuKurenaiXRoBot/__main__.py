@@ -119,7 +119,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command[.](https://te.legra.ph/file/463716d2db68e7c38d3cd.jpg)"""
+𝙘𝙝𝙚𝙘𝙠 𝙩𝙝𝙚 𝙗𝙪𝙩𝙩𝙤𝙣𝙨 𝙗𝙚𝙡𝙤𝙬 𝙩𝙤 𝙛𝙞𝙣𝙙 𝙤𝙪𝙩 𝙮𝙤𝙪𝙧 𝙣𝙚𝙚𝙙𝙚𝙙 𝙢𝙤𝙙𝙪𝙡𝙚[.](https://te.legra.ph/file/463716d2db68e7c38d3cd.jpg)"""
 
 HELP_MSG = "𝙘𝙡𝙞𝙘𝙠 𝙩𝙝𝙚 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬 𝙩𝙤 𝙜𝙚𝙩 𝙝𝙚𝙡𝙥 𝙢𝙚𝙣𝙪 𝙞𝙣𝙗𝙤𝙭"
 DONATE_STRING = """*⛔*"""
