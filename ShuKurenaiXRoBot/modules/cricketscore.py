@@ -46,4 +46,4 @@ __help__ = """
 ╚ `/cs`*:* Latest live scores from cricinfo
 """
 
-__mod_name__ = "cricketscore"
+__mod_name__ = "𝙘𝙧𝙞𝙘𝙠𝙚𝙩"
