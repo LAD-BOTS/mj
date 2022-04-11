@@ -175,4 +175,4 @@ __help__ = f"""
 and Automatically openned at 6am(IST) To Prevent Night Spams.
 """
 
-__mod_name__ = "Night Mode"
+__mod_name__ = "𝙣𝙞𝙜𝙝𝙩-𝙢𝙤𝙙𝙚"
