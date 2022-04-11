@@ -55,7 +55,7 @@ async def callback_query_handler(event):
   except Exception as e:
     await event.reply(f"{e}")
 
-__mod_name__ = "Myinfo"
+__mod_name__ = "𝙢𝙮𝙞𝙣𝙛𝙤"
 
 __help__ = """
  ~ /myinfo *:* Get Your Details On Inline. 
