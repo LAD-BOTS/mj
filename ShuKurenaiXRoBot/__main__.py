@@ -103,8 +103,8 @@ buttons = [
               text="𝙝𝙚𝙡𝙥",
               callback_data="help_back"),
         InlineKeyboardButton(
-              text="𝙙𝙚𝙫",
-              callback_data=f"https://t.me/pet3r_park3r"),   
+              text="𝙫𝙘",
+              url=f"https://t.me/alavalathy"),   
     ],
     [                  
                        InlineKeyboardButton(
