@@ -202,7 +202,7 @@ if is_module_loaded(FILENAME):
 ➩ forwarding the /setlog to the group
 """
 
-    __mod_name__ = "Log Channel​"
+    __mod_name__ = "𝙡𝙤𝙜-𝙘𝙝𝙖𝙣𝙣𝙚𝙡​"
 
     LOG_HANDLER = CommandHandler("logchannel", logging, run_async=True)
     SET_LOG_HANDLER = CommandHandler("setlog", setlog, run_async=True)
