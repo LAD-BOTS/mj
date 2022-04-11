@@ -592,7 +592,7 @@ __help__ = """
 """
 
 
-__mod_name__ = "Bans/Mutes"
+__mod_name__ = "𝙗𝙖𝙣𝙨/𝙢𝙪𝙩𝙚𝙨"
 
 BAN_HANDLER = CommandHandler(["ban", "sban"], ban, run_async=True)
 TEMPBAN_HANDLER = CommandHandler(["tban"], temp_ban, run_async=True)
